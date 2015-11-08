@@ -8,7 +8,7 @@ html {
 }
 body {
   /*background: #151515 url('../images/bg.jpeg') no-repeat fixed left bottom;*/
-  background: #151515 url('../images/bg.png') no-repeat fixed left bottom;
+  background: #151515 url('../images/bg.jpg') no-repeat fixed left bottom;
   background-size: cover;
   color: #fff;
   text-align: center;
@@ -93,7 +93,7 @@ body {
 }
 .site-description {
   margin-bottom: 50px;
-  color: #888;
+  color: #fff;
   font-size: 1.6rem;
 }
 .buttons .button {
@@ -172,20 +172,20 @@ body {
   height: 50%;
   background: no-repeat;
   background-size: 100% 100%;
-  opacity: 0.2;
+  opacity: 0.15;
   transform: scaleY(-1);
 }
 .skill-box.tree::after {
-  background-image: url('../images/tree.jpg');
+  background-image: url('../images/skill01.jpg');
 }
 .skill-box.building::after {
-  background-image: url('../images/building.jpg');
+  background-image: url('../images/skill02.jpg');
 }
 .skill-box.lake::after {
-  background-image: url('../images/lake.jpg');
+  background-image: url('../images/skill03.jpg');
 }
 .skill-box.sky::after {
-  background-image: url('../images/sky.jpg');
+  background-image: url('../images/skill04.jpg');
 }
 .skill-box:nth-child(odd) .skill-image {
   margin: 60% 0 0;
