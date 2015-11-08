@@ -238,7 +238,24 @@ body {
 .contact {
   padding: 80px 0 150px;
 }
-
+.contact-icon{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 30px;
+    font-size: 3rem;
+    line-height: 106px;
+}
+.contact-info{
+    margin: 0 0px 20px;
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+}
+.contact-info:hover{
+    margin: 0 0px 20px;
+    font-size: 2rem;
+    color: #f1b400;
+}
 
 /* --------------------------------
  * footer
