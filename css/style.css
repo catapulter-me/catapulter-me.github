@@ -173,7 +173,7 @@ body {
   background: no-repeat;
   background-size: 100% 100%;
   opacity: 0.15;
-  transform: scaleY(-1);
+  /*transform: scaleY(-1);*/
 }
 .skill-box.s01::after {
   background-image: url('../images/skill01.jpg');
@@ -413,7 +413,7 @@ body {
     line-height: 1.8;
   }
   
-  /* --- about --- */
+  /* --- policy --- */
   .policy-text {
     line-height: 1.8;
   }
