@@ -280,6 +280,18 @@ body {
 .work-box.w04::after {
   background-image: url('../images/work04.jpg');
 }
+.work-box.w05::after {
+  background-image: url('../images/work05.jpg');
+}
+.work-box.w06::after {
+  background-image: url('../images/work-noimage.jpg');
+}
+.work-box.w07::after {
+  background-image: url('../images/work-noimage.jpg');
+}
+.work-box.w08::after {
+  background-image: url('../images/work-noimage.jpg');
+}
 .work-box:nth-child(odd) .work-image {
   margin: 60% 0 0;
 }
