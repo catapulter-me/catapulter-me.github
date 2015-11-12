@@ -337,6 +337,22 @@ body {
 }
 
 /* --------------------------------
+ * writing
+ * -------------------------------- */
+.writing {
+  padding: 80px 30px;
+  background-color: #383634;
+  color: #fff;
+}
+.writing-text {
+  margin: 30px 0;
+  line-height: 2.5;
+}
+.writing-text a{
+  color: #fff;
+}
+
+/* --------------------------------
  * contact
  * -------------------------------- */
 .contact {
@@ -418,6 +434,10 @@ body {
     line-height: 1.8;
   }
   
+  /* --- writing --- */
+  .writing-text {
+    line-height: 1.8;
+  }
   /* --- skills --- */
   .skills-wrapper,
   .skill-box {
@@ -497,4 +517,35 @@ body {
 .work-box:hover .work-image {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
+}
+
+#overlay{
+    display: none;
+    width: 100%;
+    height:100%;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    background: rgba(0,0,0,0.7);
+}
+
+#text{
+    font-size: 40px;
+    color: #eee;
+    padding-top: 400px;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+#close{
+    background: #eeeeee url(images/ico.jpg) no-repeat 10px center;
+    color: #717171;
+    width: 70px;
+    margin: auto;
+    text-align: center;
+    font-size: 15px;
+    padding:5px 0 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
 }
