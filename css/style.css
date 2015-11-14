@@ -278,18 +278,6 @@ body {
   background-image: url('../images/work03.jpg');
 }
 .work-box.w04::after {
-  background-image: url('../images/work04.jpg');
-}
-.work-box.w05::after {
-  background-image: url('../images/work05.jpg');
-}
-.work-box.w06::after {
-  background-image: url('../images/work-noimage.jpg');
-}
-.work-box.w07::after {
-  background-image: url('../images/work-noimage.jpg');
-}
-.work-box.w08::after {
   background-image: url('../images/work-noimage.jpg');
 }
 .work-box:nth-child(odd) .work-image {
@@ -517,35 +505,4 @@ body {
 .work-box:hover .work-image {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
-}
-
-#overlay{
-    display: none;
-    width: 100%;
-    height:100%;
-    text-align: center;
-    position: fixed;
-    top: 0;
-    z-index: 100;
-    background: rgba(0,0,0,0.7);
-}
-
-#text{
-    font-size: 40px;
-    color: #eee;
-    padding-top: 400px;
-    vertical-align: middle;
-    font-weight: bold;
-}
-
-#close{
-    background: #eeeeee url(images/ico.jpg) no-repeat 10px center;
-    color: #717171;
-    width: 70px;
-    margin: auto;
-    text-align: center;
-    font-size: 15px;
-    padding:5px 0 5px 10px;
-    border-radius: 3px;
-    cursor: pointer;
 }
