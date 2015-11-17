@@ -172,7 +172,7 @@ body {
   height: 50%;
   background: no-repeat;
   background-size: 100% 100%;
-  opacity: 0.15;
+  opacity: 0.05;
   /*transform: scaleY(-1);*/
 }
 .skill-box.s01::after {
@@ -416,12 +416,12 @@ body {
   .about-text {
     line-height: 1.8;
   }
-  
+
   /* --- policy --- */
   .policy-text {
     line-height: 1.8;
   }
-  
+
   /* --- writing --- */
   .writing-text {
     line-height: 1.8;
@@ -442,7 +442,7 @@ body {
     height: 100%;
     background-size: cover;
   }
-  
+
   /* --- works --- */
   .works-wrapper,
   .work-box {
@@ -459,7 +459,7 @@ body {
     height: 100%;
     background-size: cover;
   }
-  
+
   /* --- blogs --- */
   .blogs-wrapper,
   .blog-box {
